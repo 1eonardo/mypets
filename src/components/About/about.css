@@ -1,0 +1,142 @@
+.section_about{
+    width: 100%;
+    height: 100%;
+}
+
+.about_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem; 
+    margin-bottom: 8rem;
+    margin-top: -10rem;
+  }
+  
+
+.backimg_about{
+    max-width: 25rem;
+    max-height: 25rem;
+    object-fit: cover;
+    flex: 1;
+    text-align: right;
+    margin-right: 9rem;
+    margin-top: 10rem;
+}
+
+
+.about_text {
+    flex: 1;
+    text-align: left;
+    margin-left: 10rem; /* Adjust margin for spacing */
+  }
+  
+  .about_title {
+    font-size: 2rem;
+    font-weight: 400;
+    width: 30rem;
+    color: #222;
+    font-family: var(--dyna);
+    margin-top: 10rem;
+    margin-bottom: 1rem; /* Add margin for better spacing */
+  }
+
+  .about_subtitle{
+    font-weight: 600;
+    width: 20rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about_desc1 {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 30rem;
+    color: #747474;
+    margin-bottom: 1rem; /* Add margin for better spacing */
+  }
+  
+  
+  .about_desc2 {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 30rem;
+    color: #747474;
+    margin-bottom: 3rem; /* Add margin for better spacing */
+  }
+  
+  
+  .btnabout {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 6px 30px;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    background-color: #dd5e3e;
+    border: solid #dd5e3e 2px;
+    border-radius: 500px;
+    cursor: pointer;
+    margin-top: 2rem; /* Adjust margin for spacing */
+  }
+
+  .btnabout:hover {
+    background-color: #9e3a22;
+    border: solid #9e3a22 2px;
+    transition: 300ms;
+  }
+
+  @media screen and (max-width: 720px) {
+
+    .section_About{
+      width: 100%;
+      margin: 0;
+    }
+
+    .about_section {
+      flex-direction: column; 
+      margin-left: -80px;
+      width: 100%;
+      margin-right: 0;
+    }
+
+    .imgdog_about{
+      max-width: 20rem;
+      max-height: 20rem;
+      margin: 0;
+      margin-right: 0;
+    }
+
+    .backimg_about{
+      margin: 0;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      max-width: 20rem;
+      max-height: 20rem;
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .about_section {
+      flex-direction: column; /* Cambia a una disposición de columna en pantallas pequeñas */
+      margin-left: -90px;
+      width: 100%;
+    }
+
+    .about_desc2, .about_desc1, .about_subtitle, .about_title, .imgdog_about{
+      width: 400px;
+    }
+
+    .backimg_about{
+      margin: 0 auto; /* Centra la imagen en la pantalla */
+      margin-left: 8rem;
+      margin-top: 150px;
+      max-width: 20rem;
+      max-height: 20rem;
+    }
+
+    .about_text{
+      margin-bottom: -110px;
+    }
+
+  }
+  
