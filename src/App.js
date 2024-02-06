@@ -17,7 +17,18 @@ function App() {
         <Navbar />
         <main className="main">
           <Routes>
-            <Route path="/" element={<section id="home"><Home /><Category /><About /><Services /><Costumers /></section>} />
+            <Route
+              path="/"
+              element={
+                <section id="home">
+                  <Home />
+                  <Category />
+                  <About />
+                  <Services />
+                  <Costumers />
+                </section>
+              }
+            />
             {/* Agrega otras rutas según sea necesario */}
           </Routes>
         </main>
