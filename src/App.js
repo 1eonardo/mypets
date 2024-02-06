@@ -1,5 +1,6 @@
+import React from 'react';
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
@@ -12,13 +13,16 @@ import Costumers from './components/costumers/Costumers';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <main className="main">
+      <Router>
+        <Navbar />
+        <main className="main">
           <Routes>
             <Route path="/" element={<section id="home"><Home /><Category /><About /><Services /><Costumers /></section>} />
-          </Routes> 
-      </main>
-      <Footer />
+            {/* Agrega otras rutas según sea necesario */}
+          </Routes>
+        </main>
+        <Footer />
+      </Router>
     </div>
   );
 }
