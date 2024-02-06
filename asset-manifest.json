@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/mypets/static/css/main.5777aa74.css",
-    "main.js": "/mypets/static/js/main.96b51463.js",
-    "static/js/787.f1e34afb.chunk.js": "/mypets/static/js/787.f1e34afb.chunk.js",
-    "static/media/fooddog1.png": "/mypets/static/media/fooddog1.15198cadf941c29131a6.png",
-    "static/media/fooddog3.png": "/mypets/static/media/fooddog3.94ab5305b9c225fe17cf.png",
-    "static/media/dogimg3.png": "/mypets/static/media/dogimg3.aae5fcff29c842c4dbcb.png",
-    "static/media/costumers1.png": "/mypets/static/media/costumers1.7ccc89c1c816e74dbfa3.png",
-    "static/media/fooddog2.png": "/mypets/static/media/fooddog2.1986c6b717fc1837b763.png",
-    "static/media/costumers3.png": "/mypets/static/media/costumers3.337150341e62928c9547.png",
-    "static/media/costumers2.png": "/mypets/static/media/costumers2.50a44868634889ccebdd.png",
-    "static/media/dogimg2.png": "/mypets/static/media/dogimg2.fd5bf33fa6f389ed5e34.png",
-    "static/media/dogimg.png": "/mypets/static/media/dogimg.7e5e8f792e1eb15e93c5.png",
-    "static/media/Grooming.png": "/mypets/static/media/Grooming.9f18a0ee32781e870c0b.png",
-    "static/media/Higienic.png": "/mypets/static/media/Higienic.c1ef57e784b6225a0163.png",
-    "static/media/Daycare.png": "/mypets/static/media/Daycare.b21951fd72d05d8b7c8e.png",
-    "static/media/Training.png": "/mypets/static/media/Training.a1f4df2f06b1251bf811.png",
-    "static/media/Healthcare.png": "/mypets/static/media/Healthcare.855d2a35e15e32d954f2.png",
-    "static/media/petslogo.png": "/mypets/static/media/petslogo.5a8bdd8f0aa39cef7cde.png",
-    "index.html": "/mypets/index.html",
-    "main.5777aa74.css.map": "/mypets/static/css/main.5777aa74.css.map",
-    "main.96b51463.js.map": "/mypets/static/js/main.96b51463.js.map",
-    "787.f1e34afb.chunk.js.map": "/mypets/static/js/787.f1e34afb.chunk.js.map"
+    "main.css": "/static/css/main.5777aa74.css",
+    "main.js": "/static/js/main.c263289e.js",
+    "static/js/787.f1e34afb.chunk.js": "/static/js/787.f1e34afb.chunk.js",
+    "static/media/fooddog1.png": "/static/media/fooddog1.15198cadf941c29131a6.png",
+    "static/media/fooddog3.png": "/static/media/fooddog3.94ab5305b9c225fe17cf.png",
+    "static/media/dogimg3.png": "/static/media/dogimg3.aae5fcff29c842c4dbcb.png",
+    "static/media/costumers1.png": "/static/media/costumers1.7ccc89c1c816e74dbfa3.png",
+    "static/media/fooddog2.png": "/static/media/fooddog2.1986c6b717fc1837b763.png",
+    "static/media/costumers3.png": "/static/media/costumers3.337150341e62928c9547.png",
+    "static/media/costumers2.png": "/static/media/costumers2.50a44868634889ccebdd.png",
+    "static/media/dogimg2.png": "/static/media/dogimg2.fd5bf33fa6f389ed5e34.png",
+    "static/media/dogimg.png": "/static/media/dogimg.7e5e8f792e1eb15e93c5.png",
+    "static/media/Grooming.png": "/static/media/Grooming.9f18a0ee32781e870c0b.png",
+    "static/media/Higienic.png": "/static/media/Higienic.c1ef57e784b6225a0163.png",
+    "static/media/Daycare.png": "/static/media/Daycare.b21951fd72d05d8b7c8e.png",
+    "static/media/Training.png": "/static/media/Training.a1f4df2f06b1251bf811.png",
+    "static/media/Healthcare.png": "/static/media/Healthcare.855d2a35e15e32d954f2.png",
+    "static/media/petslogo.png": "/static/media/petslogo.5a8bdd8f0aa39cef7cde.png",
+    "index.html": "/index.html",
+    "main.5777aa74.css.map": "/static/css/main.5777aa74.css.map",
+    "main.c263289e.js.map": "/static/js/main.c263289e.js.map",
+    "787.f1e34afb.chunk.js.map": "/static/js/787.f1e34afb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5777aa74.css",
-    "static/js/main.96b51463.js"
+    "static/js/main.c263289e.js"
   ]
 }
